@@ -1,0 +1,142 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: strings_tutorial_de
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: de
+  m_SharedData: {fileID: 11400000, guid: 88fbb9551797a8f47bd073b5b9d255c7, type: 2}
+  m_Metadata:
+    m_Items:
+    - id: 0
+  m_TableData:
+  - m_Id: 2019796267008
+    m_Localized: "M\xF6chtest du zuerst das Tutorial spielen?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2191058087936
+    m_Localized: "Tutorial \xFCberspringen"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2490070020096
+    m_Localized: Tutorial starten
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18916126720
+    m_Localized: "Du hast das Tutorial erfolgreich abgeschlossen!\nIm Folgenden werden
+      dir alle Nachrichten nochmals angezeigt und du kannst sie in Ruhe anschauen.\nWeitere
+      <color=#009682ff>Tipps</color> zum Erkennen von Phishing-Nachrichten findest
+      du im <color=#009682ff>Hauptmen\xFC</color>."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28140252246016
+    m_Localized: "M\xF6chtest du das Tutorial {0} \xFCberspringen und direkt mit
+      dem n\xE4chsten Level {1} starten?"
+    m_Metadata:
+      m_Items:
+      - id: 0
+  - m_Id: 28599931187200
+    m_Localized: '{0} spielen'
+    m_Metadata:
+      m_Items:
+      - id: 0
+  - m_Id: 28779959103488
+    m_Localized: Mit {0} starten
+    m_Metadata:
+      m_Items:
+      - id: 0
+  - m_Id: 92442525245440
+    m_Localized: "In diesem Spiel befindest du dich in einem B\xFCro und auf dem
+      Monitor vor dir werden <color=#009682ff>Nachrichten</color> erscheinen.\r\nDeine
+      Aufgabe ist es zu entscheiden, ob es sich dabei um eine <color=#009682ff>legitime</color>
+      oder <color=#009682ff>verd\xE4chtige</color> Nachricht handelt."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92701049561088
+    m_Localized: 'Mit der <color=#009682ff>Maus</color> oder dem <color=#009682ff>Analog-Stick</color>
+      eines Gamepads kannst du dich <color=#009682ff>umschauen</color>.
+
+      Durch
+      Halten der <color=#009682ff>rechten Maustaste</color> oder der <color=#009682ff>linken
+      Schultertaste</color> kannst du <color=#009682ff>zoomen</color>.
+
+      Schau
+      dir die erste Nachricht an.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92757341315072
+    m_Localized: "Bei dieser Nachricht handelt es sich um eine <color=#009682ff>Phishing-Nachricht</color>.
+      Das l\xE4sst sich an dem <color=#009682ff>E-Mail-Anhang</color> erkennen, da
+      dieser eine <color=#009682ff>ausf\xFChrbare Datei</color> (.exe) enth\xE4lt.\r\n<color=#009682ff>Ziele</color>
+      nun auf die Nachricht und <color=#009682ff>schie\xDFe</color> sie durch Dr\xFCcken
+      der <color=#009682ff>linken Maustaste</color> oder der <color=#009682ff>rechten
+      Schultertaste</color> ab.\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92887922581504
+    m_Localized: "Jetzt kommt die n\xE4chste Nachricht. Du kannst sie dir schon einmal
+      anschauen."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92958063927296
+    m_Localized: "Bei dieser Nachricht gibt es nichts verd\xE4chtiges, es handelt
+      sich um eine <color=#009682ff>legitime Nachricht</color>.\r\nIn diesem Fall
+      musst du auf den <color=#009682ff>Legitim-Knopf</color> unterhalb der Tastatur
+      schie\xDFen."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93044344954880
+    m_Localized: "Jetzt kommt die n\xE4chste Nachricht.\r\n<color=#009682ff>Oben
+      links</color> kannst du deine aktuelle <color=#009682ff>Punktzahl</color> sehen.\r\nF\xFCr
+      jede richtige Entscheidung bekommst du Punkte."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93122791022592
+    m_Localized: "Bei dieser Nachricht handelt es sich wieder um eine <color=#009682ff>Phishing-Nachricht</color>.
+      Das l\xE4sst sich an dem verd\xE4chtigen <color=#009682ff>Absender</color>
+      erkennen.\r\nWenn du genau auf den Bereich schie\xDFt, an dem man die Phishing-Nachricht
+      erkennen kann, erh\xE4ltst du <color=#009682ff>Bonuspunkte</color>. Schie\xDFe
+      in diesem Fall also auf den Absender."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93228105801728
+    m_Localized: "Jetzt kommt die n\xE4chste Nachricht.\r\n<color=#009682ff>Oben
+      rechts</color> siehst du wie viel <color=#009682ff>Zeit</color> du jeweils
+      f\xFCr deine Entscheidung hast.\r\nWenn die Zeit abgelaufen ist, verschwindet
+      die Nachricht und es gibt keine Punkte.\r\nJe <color=#009682ff>schneller</color>
+      du dich entscheidest, desto <color=#009682ff>mehr Punkte</color> bekommst du."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93319394828288
+    m_Localized: "Falls die Nachricht einen <color=#009682ff>Link</color> beinhaltet,
+      solltest du ihn dir <color=#009682ff>genau</color> anschauen. In diesem Fall
+      ist der Link <color=#009682ff>sehr verd\xE4chtig</color>.\r\nSchie\xDFe diesmal
+      auf den Link um Bonuspunkte zu bekommen."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93925555642368
+    m_Localized: '<color=#009682ff>Oben rechts</color> siehst du wie viele <color=#009682ff>Nachrichten</color>
+      du schon geschafft hast.
+
+      Jetzt kommen noch zwei Nachrichten. Bei diesen
+      bist du auf dich gestellt.
+
+      Versuche zu erkennen ob es sich jeweils um
+      eine Phishing-Nachricht handelt oder nicht.'
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 1
+    00000000:
+      type: {class: SmartFormatTag, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_Entries: 0030bde9971900000030bdf0021a000000303ddb2c1a0000

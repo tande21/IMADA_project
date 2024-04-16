@@ -1,0 +1,473 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+body, html {
+    background-color: #009682;
+}
+
+#content {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 60rem;
+    padding: 0 5px;
+}
+
+#pageTitle {
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+    display: block;
+    margin: 0;
+    font-size: 100px;
+    font-size: 6.0rem;
+    padding: 1.75rem 0;
+}
+
+@media (max-width: 60rem) {
+    #pageTitle {
+        font-size: 10.0vw;
+        padding: 2.916vw 0;
+    }
+}
+
+.table {
+    display: table;
+    width: 100%;
+    position: dynamic;
+    height: 100%;
+    margin-top: 1.5rem;
+}
+
+@media (max-width: 60rem) {
+    .table {
+        margin-top: 2.5vw;
+    }
+}
+
+.table-cell {
+    display: table-cell;
+    vertical-align: top;
+}
+
+#leaderboard {
+    list-style-type: none;
+    padding: 0;
+    margin: 0 auto;
+    width: 100%;
+}
+
+    #leaderboard li {
+        background-color: #fff;
+        border-radius: 5px;
+        height: 100px;
+        height: 6rem;
+        margin-bottom: 20px;
+        margin-bottom: 1rem;
+        overflow: hidden;
+        box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    }
+
+        #leaderboard li .list_num {
+            float: left;
+            line-height: 75px;
+            line-height: 4.5rem;
+            font-size: 60px;
+            font-size: 3.6rem;
+            color: rgba(0, 0, 0, 0.65);
+            margin: 15px;
+            margin: 0.9rem;
+            font-weight: bold;
+            text-align: right;
+            margin-left: 30px;
+            margin-left: 1.8rem;
+        }
+
+    #leaderboard h1 {
+        font-weight: bold;
+        color: #fafafa;
+        text-align: center;
+        display: block;
+        margin: 0;
+        font-size: 60px;
+        font-size: 3.6rem;
+        margin: 10px;
+        margin: 0.6rem;
+    }
+
+    #leaderboard li h2 {
+        display: block;
+        margin: 0;
+        font-size: 32px;
+        font-size: 1.92rem;
+        line-height: 75px;
+        line-height: 4.5rem;
+        font-weight: 300;
+        margin-top: 15px;
+        margin-top: 0.9rem;
+        padding-right: 20px;
+        padding-right: 1.2rem;
+        padding-left: 90px;
+        padding-left: 5.4rem;
+    }
+
+        #leaderboard li h2 .number {
+            float: right;
+            font-weight: bold;
+            color: rgba(0, 0, 0, 0.65);
+        }
+
+@media (max-width: 60rem) {
+    #leaderboard li {
+        height: 10vw;
+        margin-bottom: 1.666vw;
+    }
+
+        #leaderboard li .list_num {
+            line-height: 7.5vw;
+            font-size: 6vw;
+            margin: 1.5vw;
+            margin-left: 3vw;
+        }
+
+    #leaderboard h1 {
+        font-size: 6vw;
+        margin: 1vw;
+    }
+
+    #leaderboard li h2 {
+        font-size: 3.2vw;
+        line-height: 7.5vw;
+        margin-top: 1.5vw;
+        padding-right: 2vw;
+        padding-left: 9vw;
+    }
+}
+
+.textIconButton {
+    background: transparent;
+    border: transparent;
+    font-size: 1.5rem;
+    margin-bottom: 0.36rem;
+    cursor: pointer;
+}
+
+    .textIconButton:hover {
+        background: rgba(0,0,0,0.1);
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+    .textIconButton i {
+        font-size: 1em;
+        font-weight: bold;
+        float: left;
+    }
+
+    .textIconButton div {
+        float: left;
+        margin-left: 0.25em;
+        font-size: 0.875em;
+    }
+
+@media (max-width: 60rem) {
+    .textIconButton {
+        font-size: 2.5vw;
+        margin-bottom: 0.6vw;
+    }
+}
+
+#startGameButton {
+    margin: auto;
+    padding: 1.2rem;
+    font-size: 5.0rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #b0b0b0;
+}
+
+    #startGameButton:hover {
+        color: #ffffff;
+        background-color: rgba(0,0,0,0.0);
+    }
+
+    #startGameButton div {
+        float: none;
+        margin: auto;
+    }
+
+    #startGameButton i {
+        float: none;
+        margin: auto;
+    }
+
+@media (max-width: 60rem) {
+    #startGameButton {
+        padding: 2vw;
+        font-size: 8.333vw;
+    }
+}
+
+#compatibilityHint {
+    margin: auto;
+	margin-bottom: 0px;
+    font-size: 0.7rem;
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+	color: rgba(252, 157, 3,0.75);
+    text-align: center;
+}
+
+@media (max-width: 60rem) {
+    #compatibilityHint {
+        font-size: 1.166vw;
+    }
+}
+
+.webgl-content .footer #compatibilityHintButton {
+    position: absolute;
+    margin: 0 auto;
+    left: 50%;
+    transform: translate(-50%, 0%);
+	font-size: 1.2rem;
+}
+
+@media (max-width: 60rem) {
+    .webgl-content .footer #compatibilityHintButton {
+	    font-size: 2vw;
+    }
+}
+
+#compatibilityHintDisplay {
+    position: relative;
+    margin: 0 auto;
+    left: 50%;
+    transform: translate(-50%, 100%);
+	font-size: 1.2rem;
+	width: 70%
+}
+
+.leaderboard-header-buttons {
+    margin: 0;
+    width: 100%;
+}
+
+#leaderboardEntriesCount {
+    font-size: 1.2rem;
+    height: 100%;
+    margin: auto;
+    float: right;
+}
+
+@media (max-width: 60rem) {
+    #leaderboardEntriesCount {
+        font-size: 2vw;
+    }
+}
+
+#leaderboardModeButton {
+    margin-left: 50px
+}
+
+li#loadMoreButtonContainer {
+    background-color: #dddddd;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 4.8rem;
+}
+
+@media (max-width: 60rem) {
+    li#loadMoreButtonContainer {
+        height: 8vw;
+    }
+}
+
+#loadMoreButton {
+    margin: auto;
+    padding: 1.2rem;
+    width: 100%;
+    height: 100%;
+    font-size: 2.1rem;
+}
+
+    #loadMoreButton div {
+        float: none;
+        margin: auto;
+    }
+
+    #loadMoreButton i {
+        float: none;
+        margin: auto;
+    }
+
+@media (max-width: 60rem) {
+    #loadMoreButton {
+        padding: 2vw;
+        font-size: 3vw;
+    }
+}
+
+footer {
+    background-color: #404040;
+    height: 3.5rem;
+    font-size: 0.9rem;
+}
+
+    footer div {
+        margin: 1.2rem auto;
+        max-width: 60rem;
+        color: #fff;
+        padding: 0 5px;
+    }
+
+        footer div a {
+            text-decoration: none;
+            color: #fff;
+        }
+
+            footer div a:hover {
+                text-decoration: underline;
+                cursor: pointer;
+            }
+
+@media (max-width: 60rem) {
+    footer {
+        height: 5.833vw;
+        font-size: 1.5vw;
+    }
+
+        footer div {
+            margin: 2vw auto;
+        }
+}
+
+.popupCloseButton {
+    float: right;
+    margin-right: 10px;
+    margin-top: 0px;
+    color: #999999;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.popupCloseButton:hover {
+    color: #000000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#compatibilityHintPopup {
+    display: none;
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding-top: 10rem;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.4);
+}
+
+    #compatibilityHintPopup #compatibilityHintPopupContent {
+        width: 50rem;
+        background-color: #f0f0f0;
+        border: 2px solid #888888;
+        margin: auto;
+        padding: 0px;
+    }
+
+        #compatibilityHintPopup #compatibilityHintPopupContent .textContent {
+            margin: 30px;
+        }
+
+    #compatibilityHintPopup #compatibilityHintPopupCloseButton {
+    }
+
+@media (max-width: 60rem) {
+    #compatibilityHintPopup #compatibilityHintPopupContent {
+        width: 83.333vw;
+    }
+}
+
+table {
+	border-spacing: 0;
+	border-collapse: collapse;
+	margin-bottom: 5px;
+	width: 100%
+}
+
+table tr th {
+	border-color: #eaeaea;
+	background-color: #dbdbdb;
+	border-bottom: solid 2px #ccc;
+}
+
+table tr th, tr td {
+	padding: 10px 16px;
+	line-height: 20px;
+	vertical-align: middle;
+	border: solid 1px #ccc;
+	border-spacing: 0;
+}
+
+#challengeCodePopup {
+    display: none;
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding-top: 10rem;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.4);
+}
+
+    #challengeCodePopup #challengeCodePopupContent {
+        width: 55%;
+        background-color: #f0f0f0;
+        border: 2px solid #888888;
+        margin: auto;
+        padding: 0px;
+    }
+
+        #challengeCodePopup #challengeCodePopupContent .textContent {
+            margin: 30px;
+        }
+
+            #challengeCodePopup #challengeCodePopupContent .textContent h3 {
+                text-align: center;
+                margin-bottom: 20px;
+            }
+
+            #challengeCodePopup #challengeCodePopupContent .textContent textarea {
+                padding: 10px;
+                display: inline-block;
+                vertical-align: middle;
+            }
+
+            #challengeCodePopup #challengeCodePopupContent .textContent button {
+                display: inline-block;
+                vertical-align: middle;
+                margin: 10px;
+                padding: 5px;
+                width: 75px;
+            }
+
+                #challengeCodePopup #challengeCodePopupContent .textContent button:hover {
+                    background: rgba(0,0,0,0.1);
+                    text-decoration: none;
+                    cursor: pointer;
+                }
+
+    #challengeCodePopup #challengeCodePopupCloseButton {
+    }
+
+        #challengeCodePopup #challengeCodePopupCloseButton:hover {
+        }

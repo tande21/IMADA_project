@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Localization-String-Tables-German (de)
+  m_EditorClassIdentifier: 
+  m_GroupName: Localization-String-Tables-German (de)
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 402b6a44eee71654692a3dee451f1a6a
+  m_SerializeEntries:
+  - m_GUID: 9cc86e92f2ef9754589baf9a4984e1ad
+    m_Address: strings_base_de
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-de
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9d3ceac12966b6a4a8b7578ce8d98555
+    m_Address: strings_challenge_de
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-de
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 42bb738db817f2c4eb7919a96a3889aa
+    m_Address: strings_results_highscore_de
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-de
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 24d0709c085881b458c397c94ffbabd8
+    m_Address: strings_tutorial_de
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-de
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 285f130d8cffd064a92632c007201d18
+    m_Address: strings_game_scene_de
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-de
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 1
+  m_Settings: {fileID: 11400000, guid: 64b997ff16b08fc4bb50a5d175b809cf, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 44b5d0b7dece00045a2d19d87320cd68, type: 2}
+    - {fileID: 11400000, guid: d0cf7f95700f3c34a95c23977d0d393a, type: 2}

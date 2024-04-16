@@ -1,0 +1,28 @@
+.webgl-content * {border: 0; margin: 0; padding: 0}
+/*.webgl-content {position: absolute; top: 50%; left: 50%; -webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%);}*/
+.webgl-content {margin: 0 auto; width: 100%; margin-top: 1.5rem}
+#unityContainer {}
+
+.webgl-content .logo, .progress {position: absolute; left: 50%; top: 50%; -webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%);}
+.webgl-content .logo {background: url('TemplateData/progressLogo.Light.png') no-repeat center / contain; width: 154px; height: 130px;}
+.webgl-content .progress {height: 18px; width: 141px; margin-top: 90px;}
+.webgl-content .progress .empty {background: url('TemplateData/progressEmpty.Light.png') no-repeat right / cover; float: right; width: 100%; height: 100%; display: inline-block;}
+.webgl-content .progress .full {background: url('TemplateData/progressFull.Light.png') no-repeat left / cover; float: left; width: 0%; height: 100%; display: inline-block;}
+
+.webgl-content .logo.Dark {background-image: url('TemplateData/progressLogo.Dark.png');}
+.webgl-content .progress.Dark .empty {background-image: url('TemplateData/progressEmpty.Dark.png');}
+.webgl-content .progress.Dark .full {background-image: url('TemplateData/progressFull.Dark.png');}
+
+.webgl-content .footer {margin-top: 5px; height: 2.4rem; line-height: 2.4rem; font-family: Helvetica, Verdana, Arial, sans-serif; font-size: 1.125rem;}
+.webgl-content .footer .webgl-logo, .title, .fullscreen {height: 100%; display: inline-block; background: transparent center no-repeat;}
+.webgl-content .footer .webgl-logo {float: left;}
+.webgl-content .footer .title {margin-right: 10px; float: right;}
+.webgl-content .footer .fullscreentext {margin-right: 0.6rem; float: right;}
+.webgl-content .footer .fullscreen {float: right;}
+.webgl-content .footer .fullscreen:hover {filter: brightness(0.9); cursor: pointer;}
+
+@media (max-width: 60rem) {
+	.webgl-content {margin-top: 2.5vw}
+	.webgl-content .footer {height: 4vw; line-height: 4vw; font-size: 1.875vw;}
+	.webgl-content .footer .fullscreentext {margin-right: 1vw;}
+}

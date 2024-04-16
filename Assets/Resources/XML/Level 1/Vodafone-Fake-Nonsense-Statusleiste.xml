@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<mail xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<zone>
+<x1>0</x1>
+<x2>1</x2>
+<y1>0.65</y1>
+<y2>0.85</y2>
+</zone>
+<description>
+Überprüfe die Plausibilität des Inhalts!
+Wenn Du aufgefordert wirst, private Informationen weiterzugeben, solltest Du besonders vorsichtig sein.
+Es ist unüblich, dass große Unternehmen Dich dazu auffordern, Deine Bankverbindung in einer E-Mail zu versenden.
+</description>
+</mail>

@@ -1,0 +1,35 @@
+version: "3.8"
+services:
+
+  web-server:
+    build: ./php7.2-apache-mysql
+    restart: unless-stopped
+    environment:
+      - ALLOW_OVERRIDE=true
+    volumes:
+      - ./container-data/web-server/html:/var/www/html/
+    ports:
+      - "80:80"
+    networks:
+      - phishing-master
+
+  db:
+    image: mariadb
+    restart: unless-stopped
+    volumes:
+      - ./container-data/db/mysql:/var/lib/mysql
+    environment:
+      - MYSQL_ROOT_PASSWORD=change-me
+    networks:
+      - phishing-master
+
+  phpmyadmin:
+    restart: unless-stopped
+    image: phpmyadmin/phpmyadmin:latest
+    ports:
+      - 8890:80
+    networks:
+      - phishing-master
+
+networks:
+  phishing-master:

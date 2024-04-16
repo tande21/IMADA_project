@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<mail xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<zone>
+<x1>0</x1>
+<x2>1</x2>
+<y1>0.6</y1>
+<y2>0.9</y2>
+</zone>
+<description>
+Achte auf den Dateityp bei Anhängen!
+Ausführbare Dateien (z.B. exe) sind besonders verdächtig.
+In diesem Fall handelt es sich um eine ausführbare Datei.
+</description>
+</mail>

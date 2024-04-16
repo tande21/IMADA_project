@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: strings_challenge_de
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: de
+  m_SharedData: {fileID: 11400000, guid: 39b59505646060c4ca89bf4d97e3d22d, type: 2}
+  m_Metadata:
+    m_Items:
+    - id: 0
+  m_TableData:
+  - m_Id: 2564309200896
+    m_Localized: 'Dein Herausforderungscode:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2805511041024
+    m_Localized: Lade Herausforderungs-Code
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2940198531072
+    m_Localized: Teilen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3167378812928
+    m_Localized: Du kannst diesen Herausforderungs-Code mit deinen Freunden teilen
+      um sie herauszufordern deine Punktzahl zu schlagen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5604676284416
+    m_Localized: Herausforderung
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5939197194240
+    m_Localized: "Hier kannst du einen Namen f\xFCr deinen Herausforderungs-Raum
+      eingeben um deine Freunde herauszufordern."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11911382773760
+    m_Localized: Herausforderungs-Modus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12105990090752
+    m_Localized: Du hast das Spiel mit einem Herausforderungs-Code gestartet. Im
+      Herausforderungsmodus werden dir genau die gleichen Nachrichten angezeigt,
+      wie deinem Herausforderer und du kannst versuchen, die Punktzahl zu schlagen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12305404080128
+    m_Localized: 'Dein Herausforderer:
+
+      Name: {0}
+
+      Punktzahl: {1}'
+    m_Metadata:
+      m_Items:
+      - id: 0
+  - m_Id: 12623625924608
+    m_Localized: Herausforderung starten
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12710208942080
+    m_Localized: Normales Spiel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 34255987879936
+    m_Localized: "Der eingegebene Herausforderungscode konnte nicht geladen werden.\nEntweder
+      ist der Code ung\xFCltig oder nicht mit dieser Version kompatibel."
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 1
+    00000000:
+      type: {class: SmartFormatTag, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_Entries: 00303d13310b0000

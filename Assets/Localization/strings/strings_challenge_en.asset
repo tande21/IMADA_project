@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: strings_challenge_en
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: 39b59505646060c4ca89bf4d97e3d22d, type: 2}
+  m_Metadata:
+    m_Items:
+    - id: 0
+  m_TableData:
+  - m_Id: 2564309200896
+    m_Localized: 'Your challenge code:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2805511041024
+    m_Localized: Loading challenge code
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2940198531072
+    m_Localized: Share
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3167378812928
+    m_Localized: You can share this challenge code with your friends to challenge
+      them to beat your score.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5604676284416
+    m_Localized: Challenge
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5939197194240
+    m_Localized: Here you can enter a name for your challenge room to challenge your
+      friends.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11911382773760
+    m_Localized: Challenge Mode
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12105990090752
+    m_Localized: You started the game with a challenge code. In challenge mode you
+      will be shown exactly the same messages as your challenger and you can try
+      to beat the score.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12305404080128
+    m_Localized: "\rYour challenger:\r \nName:\r {0}\nScore: {1}"
+    m_Metadata:
+      m_Items:
+      - id: 0
+  - m_Id: 12623625924608
+    m_Localized: Start challenge
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12710208942080
+    m_Localized: Normal game
+    m_Metadata:
+      m_Items: []
+  - m_Id: 34255987879936
+    m_Localized: 'The challenge code you entered could not be loaded.
+
+      Either
+      the code is invalid or not compatible with this version.'
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 1
+    00000000:
+      type: {class: SmartFormatTag, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_Entries: 00303d13310b0000

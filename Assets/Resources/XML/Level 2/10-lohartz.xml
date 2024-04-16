@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<mail xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<zone>
+<x1>0</x1>
+<x2>1</x2>
+<y1>0.5</y1>
+<y2>0.7</y2>
+</zone>
+<description>
+Achte bei Links darauf, wohin diese tatsächlich führen!
+In diesem Fall passt der Link nicht zum Inhalt.
+Der Link führt zu www.sicher-online-2000.de anstatt zu explore-friends.com
+</description>
+</mail>

@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <!-- Unity -->
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Phishing Master</title>
+    <link rel="shortcut icon" href="TemplateData/favicon.ico">
+    <!--<link rel="stylesheet" href="TemplateData/style.css">-->
+	<link rel="stylesheet" href="./style-unity.css">
+    <script src="TemplateData/UnityProgress.js"></script>
+    <script src="Build/UnityLoader.js"></script>
+    <script>
+      //var unityInstance = UnityLoader.instantiate("unityContainer", "Build/htdocs.json", {onProgress: UnityProgress});
+    </script>
+	<!-- /Unity -->
+	<!-- Leaderboard -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <script type="text/javascript" src="script.js"></script>
+	<link rel="stylesheet" href="./style.css">
+	<!-- /Leaderboard -->
+  </head>
+  <body>
+  <div id="content">
+  	<h1 id=pageTitle>Phishing Master</h1>
+    <div class="webgl-content">
+      <div id="unityContainer">
+	    <div id="placeholder" style="position:relative;">
+	    <img src="images/game_background.jpg" style="width: 100%;">
+		<button id="startGameButton" onclick="loadGame()" class="textIconButton" style="float: none;">
+		  <i class="large material-icons" style="">play_circle_outline</i>
+		  <div style="">Spiel Starten</div>
+		</button>
+		<div id="compatibilityHint">Bei Problemen bitte<br>den Kompatibilitäts-Hinweis beachten</div>
+		</div>
+	  </div>
+      <div class="footer">
+	    <img class="webgl-logo" src="TemplateData/webgl-logo.png">
+		<button id="compatibilityHintButton" class="textIconButton" style="float: none;" onclick="document.getElementById('compatibilityHintPopup').style.display = 'block'">
+		  <i class="large material-icons" style="">help_outline</i>
+		  <div style="">Kompatibilitäts-Hinweis</div>
+		</button>
+		<img id="fullscreenButton" class="fullscreen" onclick="fullscreenButtonClicked()" style="display:none;" src="TemplateData/fullscreen.png">
+		<div id="fullscreenText" class="fullscreentext" style="display:none;">Vollbild</div>
+        <!--<div class="title">PhishingMaster</div>-->
+      </div>
+	  <!-- Challenge Code Popup -->
+	  <div id="challengeCodePopup">
+	    <!-- Challenge Code Popup Content -->
+	    <div id="challengeCodePopupContent">
+	      <span class="popupCloseButton" id="challengeCodePopupCloseButton">&times;</span>
+		  <!-- Challenge Code Popup Text Content -->
+		  <div class="textContent">
+	        <h3>Dein Herausforderungscode:</h3>
+		    <textarea rows=7 cols=50 id="challengeCodeText" readonly>Herausforderungscode</textarea>
+	          <button id="CopyChallengeCodeTextToClipboardButton" onclick="CopyChallengeCodeTextToClipboard()">
+			    <i class="large material-icons">content_copy</i>
+				<div>Kopieren</div>
+			  </button>
+		  </div>
+	    </div>
+	  </div>
+    </div>
+	<div id="compatibilityHintPopup">
+	  <div id="compatibilityHintPopupContent">
+	    <span class="popupCloseButton" id="compatibilityHintPopupCloseButton" onclick="document.getElementById('compatibilityHintPopup').style.display = 'none'">&times;</span>
+		<!-- Challenge Code Popup Text Content -->
+		<div class="textContent">
+		<h4>Allgemeine Hinweise:</h4>
+		Wird im Browser ein Zoom-Level ungleich 100% oder in den Betriebsystemeinstellungen eine Bildschirm-Skalierung verwendet kann es zu Problemen mit der Mausbedienung kommen.<br>
+		Es wird empfohlen, das Spiel im Vollbild-Modus zu spielen. Dazu auf den Vollbild-Button unterhalb des Spiele Fensters drücken, nachdem das Spiel geladen hat.<br>
+		Teilweise verliert das Spiel-Fenster den Fokus, wodurch man sich nicht mehr frei umschauen kann. Um das Problem zu beheben, einmal in das Spiel-Fenster klicken.
+		<h4>Systemkonfigurationen:</h4>
+		<table>
+		  <thead>
+		    <tr>
+			  <th>Browser/OS</th>
+			  <th>Windows (10)</th>
+			  <th>Linux (Ubuntu 18.04)</th>
+			  <th>MacOS (Catalina)</th>
+			</tr>
+		  </thead>
+		  <tbody>
+		    <tr>
+			  <td>Chrome/Chromium</td>
+			  <td>Maus: &check;<br>Xbox: &check;<br>DS4: &check;</td>
+			  <td>Maus: &check;<br>Xbox: &check;<br>DS4: &excl;</td>
+			  <td>Maus: &check;<br>Xbox: &#x2717;<br>DS4: &check;</td>
+			</tr>
+			<tr>
+			  <td>Firefox</td>
+			  <td>Maus: &check;<br>Xbox: &check;<br>DS4: &check;</td>
+			  <td>Maus: &check;<br>Xbox: &excl;[3]<br>DS4: &excl;[2]</td>
+			  <td>Maus: &check;<br>Xbox: &#x2717;<br>DS4: &check;</td>
+			</tr>
+			<tr>
+			  <td>Opera</td>
+			  <td>Maus: &check;[1]<br>Xbox: &check;<br>DS4: &check;</td>
+			  <td>Maus: ---<br>Xbox: ---<br>DS4: ---</td>
+			  <td>Maus: &check;[1]<br>Xbox: &check;<br>DS4: &check;</td>
+			</tr>
+			<tr>
+			  <td>Edge (Chrome)</td>
+			  <td>Maus: &check;<br>Xbox: &check;<br>DS4: &check;</td>
+			  <td>Maus: ---<br>Xbox: ---<br>DS4: ---</td>
+			  <td>Maus: &check;<br>Xbox: &#x2717;<br>DS4: &check;</td>
+			</tr>
+			<tr>
+			  <td>Safari</td>
+			  <td>Maus: ---<br>Xbox: ---<br>DS4: ---</td>
+			  <td>Maus: ---<br>Xbox: ---<br>DS4: ---</td>
+			  <td>Maus: &excl;[4]<br>Xbox: ---<br>DS4: ---</td>
+			</tr>
+			<tr>
+			</tr>
+		  </tbody>
+		</table>
+		Gamepads: DS4 (Playstation 4 Controller), Xbox (Xbox One Controller)<br>
+		<br>
+		&check;: Funtioniert<br>
+		&excl;: Funktioniert eingeschränkt<br>
+		&#x2717;: Funtioniert nicht<br>
+		---: Nicht getestet<br>
+		<hr>
+		[1]: Mausgesten sollten im Browser deaktiviert werden.<br>
+		[2]: Tasten falsch belegt, Menü-Auswahl defekt.<br>
+		[3]: Untere Schultertasten funktionieren nicht, Regeln können nicht durchgewechselt werden.<br>
+		[4]: Mausempfindlichkeit sehr gering.
+		</div>
+	  </div>
+	</div>
+    <div class="table">
+      <div class="table-cell">
+        <ul id="leaderboard">
+		<h1>Highscores</h1>
+		<div class="leaderboard-header-buttons">
+		  <button id="refreshButton" onclick="clearAndReload();" class="textIconButton" style="float: none;">
+		    <i class="large material-icons" style="">refresh</i>
+		    <div style="">Aktualisieren</div>
+		  </button>
+		  <button id="leaderboardModeButton" onclick="changeLeaderboardMode()" class="textIconButton" style="display: none;float: none;">
+		    <i class="large material-icons" style="">swap_horiz</i>
+		    <div style="">Normaler Modus</div>
+		  </button>
+		  <div id="leaderboardEntriesCount">999 Einträge</div>
+		</div>
+        <li style="background-color: #FFD700">
+          <span class="list_num">1</span>
+          <h2><span class="name"></span><span class="number">0</span></h2>
+        </li>
+        <li style="background-color: #C0C0C0">
+          <span class="list_num">2</span>
+          <h2><span class="name"></span><span class="number">0</span></h2>
+        </li>
+        <li style="background-color: #cd7f32">
+          <span class="list_num">3</span>
+          <h2><span class="name"></span><span class="number">0</span></h2>
+        </li>
+        <li>
+          <span class="list_num">4</span>
+          <h2><span class="name"></span><span class="number">0</span></h2>
+        </li>
+        <li>
+          <span class="list_num">5</span>
+          <h2><span class="name"></span><span class="number">0</span></h2>
+        </li>
+	    <li>
+          <span class="list_num">6</span>
+          <h2><span class="name"></span><span class="number">0</span></h2>
+        </li>
+	    <li>
+          <span class="list_num">7</span>
+          <h2><span class="name"></span><span class="number">0</span></h2>
+        </li>
+	    <li>
+          <span class="list_num">8</span>
+          <h2><span class="name"></span><span class="number">0</span></h2>
+        </li>
+		<li>
+          <span class="list_num">9</span>
+          <h2><span class="name"></span><span class="number">0</span></h2>
+        </li>
+		<li>
+          <span class="list_num">10</span>
+          <h2><span class="name"></span><span class="number">0</span></h2>
+        </li>
+		<li id="loadMoreButtonContainer">
+		<button id="loadMoreButton" onclick="loadMoreButtonClicked()" class="textIconButton">
+		  <div style="">Mehr Laden</div>
+		  <i class="large material-icons" style="">expand_more</i>
+		</button>
+		</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  </body>
+  <footer>
+    <div>
+      <div style="float:left;"><a href="/impressum">Impressum</a><a href="/datenschutzerklaerung" style="margin-left:10px;">Datenschutzerklärung</a></div>
+	  <div style="float:right;text-align:right;">Entwickelt von Tobias Länge und Philipp Matheis</div>
+	</div>
+  </footer>
+</html>

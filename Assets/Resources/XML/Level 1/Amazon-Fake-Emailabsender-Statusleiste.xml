@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<mail xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<zone>
+<x1>0</x1>
+<x2>1</x2>
+<y1>0</y1>
+<y2>0.2</y2>
+</zone>
+<description>
+Achte auf den Absender!
+In diesem Fall ist die Absender-Adresse "amazon@&lt;#009682ff&gt;host547.ru&lt;/color&gt;" und passt somit nicht zum Inhalt der Nachricht.
+</description>
+</mail>

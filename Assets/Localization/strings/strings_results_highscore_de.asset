@@ -1,0 +1,121 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: strings_results_highscore_de
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: de
+  m_SharedData: {fileID: 11400000, guid: b2c50b4e998ecf946b74a793a5360015, type: 2}
+  m_Metadata:
+    m_Items:
+    - id: 0
+  m_TableData:
+  - m_Id: 7516008448
+    m_Localized: "Hier kannst du nochmals alle Nachrichten sehen. Wenn du eine Nachricht
+      anklickst, bekommst du zus\xE4tzliche Informationen zu dieser."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 260721946624
+    m_Localized: 'Neuen Highscore erreicht!
+
+      Highscore: {highscore}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19202127507456
+    m_Localized: "Wenn du m\xF6chtest kannst du hier deinen Namen in die \xF6ffentliche
+      Bestenliste eintragen\r\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19240408920064
+    m_Localized: Anonym
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19293483642880
+    m_Localized: Hier kannst du deinen Namen mit der Tastatur eingeben
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19452003168256
+    m_Localized: "Ung\xFCltiger Name. Bitte geben sie einen Namen ein."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19504180310016
+    m_Localized: "M\xF6chtest du dich mit folgendem Namen in die \xF6ffentliche Bestenliste
+      eintragen?\nName: {0}\nPunktzahl: {1}"
+    m_Metadata:
+      m_Items:
+      - id: 0
+  - m_Id: 19555413733376
+    m_Localized: "Dein Ergebnis wird anonym eingetragen und taucht nicht in der \xF6ffentlichen
+      Bestenliste auf."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 23910695120896
+    m_Localized: 'Punktzahl: {0}'
+    m_Metadata:
+      m_Items:
+      - id: 0
+  - m_Id: 24636406181888
+    m_Localized: "Neuer pers\xF6nlicher Rekord!\nRekord: {0}"
+    m_Metadata:
+      m_Items:
+      - id: 0
+  - m_Id: 25342420791296
+    m_Localized: Erneut Spielen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25057946316800
+    m_Localized: "Pers\xF6nlicher Rekord: {0}"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28142756245504
+    m_Localized: Legitime Nachricht
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28285958172672
+    m_Localized: Phishing-Nachricht
+    m_Metadata:
+      m_Items: []
+  - m_Id: 31206917615616
+    m_Localized: Du
+    m_Metadata:
+      m_Items: []
+  - m_Id: 31383594283008
+    m_Localized: Die Punktzahl wird hochgeladen...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 31608664829952
+    m_Localized: "Nicht verf\xFCgbar."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 31732807839744
+    m_Localized: Eintrag in die Bestenliste erfolgreich!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 31881714020352
+    m_Localized: Eintrag in die Bestenliste fehlgeschlagen!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 116825889251328
+    m_Localized: Level abgeschlossen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 119367327096832
+    m_Localized: '{0} erfolgreich abgeschlossen.'
+    m_Metadata:
+      m_Items:
+      - id: 0
+  references:
+    version: 1
+    00000000:
+      type: {class: SmartFormatTag, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_Entries: 0030bd2bbd11000000303d1c681600000020215f906c000000307d24bf150000

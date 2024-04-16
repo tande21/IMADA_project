@@ -1,0 +1,140 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: strings_base Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: strings_base
+  m_TableCollectionNameGuidString: 5fb84b7d91665764ea0350de3b41c13c
+  m_Entries:
+  - m_Id: 71694495744
+    m_Key: play
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1093015908352
+    m_Key: controls
+    m_Metadata:
+      m_Items: []
+  - m_Id: 339917749956608
+    m_Key: aim
+    m_Metadata:
+      m_Items: []
+  - m_Id: 340003712217088
+    m_Key: shoot
+    m_Metadata:
+      m_Items: []
+  - m_Id: 340047450419200
+    m_Key: pause
+    m_Metadata:
+      m_Items: []
+  - m_Id: 340105939988480
+    m_Key: look
+    m_Metadata:
+      m_Items: []
+  - m_Id: 675529568890880
+    m_Key: rules
+    m_Metadata:
+      m_Items: []
+  - m_Id: 675595448823808
+    m_Key: confirm
+    m_Metadata:
+      m_Items: []
+  - m_Id: 675653061783552
+    m_Key: back
+    m_Metadata:
+      m_Items: []
+  - m_Id: 675709299011584
+    m_Key: developers_text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 675789657681920
+    m_Key: credits
+    m_Metadata:
+      m_Items: []
+  - m_Id: 677080718979072
+    m_Key: developers
+    m_Metadata:
+      m_Items: []
+  - m_Id: 678012076765184
+    m_Key: continue
+    m_Metadata:
+      m_Items: []
+  - m_Id: 678230826496000
+    m_Key: ok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682631674802176
+    m_Key: yes
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682844527341568
+    m_Key: cancel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 686744588333056
+    m_Key: menu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 687021173321728
+    m_Key: results
+    m_Metadata:
+      m_Items: []
+  - m_Id: 688142977675264
+    m_Key: score mode
+    m_Metadata:
+      m_Items: []
+  - m_Id: 705065002020864
+    m_Key: enter
+    m_Metadata:
+      m_Items: []
+  - m_Id: 714907720691712
+    m_Key: loading_data
+    m_Metadata:
+      m_Items: []
+  - m_Id: 714992965726208
+    m_Key: data_not_found
+    m_Metadata:
+      m_Items: []
+  - m_Id: 715610727985152
+    m_Key: no_connection_possible
+    m_Metadata:
+      m_Items: []
+  - m_Id: 785801807994880
+    m_Key: credit_content
+    m_Metadata:
+      m_Items: []
+  - m_Id: 785493932584960
+    m_Key: version
+    m_Metadata:
+      m_Items: []
+  - m_Id: 802308544999424
+    m_Key: training_level_display_name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 802428560814080
+    m_Key: real_company_level_1_display_name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 802542402613248
+    m_Key: fake_company_level_1_display_name
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    id: 0
+  references:
+    version: 1
+    00000000:
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables,
+        asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1670247646688
