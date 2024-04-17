@@ -8,12 +8,12 @@
 <y2>1</y2>
 </zone>
 <description>
-Achte bei Links darauf, wohin diese tatsächlich führen!
-Hier wird der tatsächliche Link in der Statusleiste unten am Bildschirm angezeigt.
-In diesem Fall passt der Link nicht zum Inhalt.
-Der Link führt zu
-mein-pakets&lt;#009682ff&gt;re&lt;/color&gt;vice.de
-anstatt zu 
-mein-paketservice.de.
+When it comes to links, pay attention to where they actually lead!
+Here the actual link is displayed in the status bar at the bottom of the screen.
+In this case the link does not match the content.
+The link leads to
+my-packages&lt;#009682ff&gt;re&lt;/color&gt;vice.com
+instead of
+my-packageservice.com.
 </description>
 </mail>

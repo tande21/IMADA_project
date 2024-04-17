@@ -8,8 +8,8 @@
 <y2>0.2</y2>
 </zone>
 <description>
-Achte auf den Absender!
-Lass dich nicht von dem vermeintlichen Namen täuschen. Es kommt auf die E-Mail-Adresse (hier in spitzen Klammern) an.
-In diesem Fall ist die Absender-Adresse "versand@&lt;#009682ff&gt;host547.com&lt;/color&gt;" und passt somit nicht zum Inhalt der Nachricht.
+Pay attention to the sender!
+Don't let the supposed name fool you. It depends on the email address (here in angle brackets).
+In this case the sender address is "versand@&lt;#009682ff&gt;host547.com&lt;/color&gt;" and therefore does not match the content of the message.
 </description>
 </mail>
