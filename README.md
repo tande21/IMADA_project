@@ -1,161 +1,179 @@
-## Phishing Master
-`Phishing Master` ist ein Videospiel zur Aufklärung über das Thema *Phishing*.
-Dieses wurde ursprünglich im Rahmen des Praktikums *KASTEL Praktikum Sicherheit* am [KIT](https://kit.edu) entwickelt und anschließend 2020 im Rahmen des Praktikums *Praktikum Security, Usability and Society* erweitert.
-In `Phishing Master` werden dem Spieler nacheinander verschiedene E-Mail- oder Text-Nachrichten gezeigt, bei denen es sich entweder um Phishing-Versuche oder legetime Nachrichten handelt.
-Die Aufgabe des Spielers ist es dann zu entschieden um was für eine Nachricht es sich handelt.
-## Kompatibilität
-Die Webversion von `Phishing Master 3.0.0` wurde mit verschiedenen Systemkonfigurationen getestet.
-Die Bedienung mit der Maus funktioniert bei jeder getesteten Konfiguration.
-Dabei ist zu beachten, dass das Zoom-Level des Browsers auf 100% eingestellt sein muss.
-Für die Steuerung mit einem Gamepad (DS4/Xbox One) werden folgende Browser für die höchste Kompatibilität empfohlen:
- - Windows: Chrome, Firefox, Opera, Edge(Chrome)
- - Linux: Chromium
- - MacOS: Opera
+## Phishing Master (Translated version)
+`Phishing Master` is a video game designed to educate about the topic of *phishing*.  
+It was originally developed as part of the internship *KASTEL Praktikum Sicherheit* at the [KIT](https://kit.edu) and then expanded in 2020 as part of the internship *Praktikum Security, Usability and Society*.  
+In `Phishing Master`, the player is shown various email or text messages in succession, which can be either phishing attempts or legitimate messages.  
+The player's task is then to decide what type of message is being shown.
 
- Andere Browser können jedoch auch funktionieren, für genauere Details die folgende Übersicht anschauen:
+## Compatibility
+The web version of `Phishing Master 3.0.0` has been tested with various system configurations.  
+Mouse control worked for each tested configuration. Please note that the browser’s zoom level must be set to 100%.  
+
+For gamepad control (DS4/Xbox One), the following browsers are recommended for maximum compatibility:
+
+- Windows: Chrome, Firefox, Opera, Edge(Chrome)
+- Linux: Chromium
+- MacOS: Opera
+
+Other browsers may also work. For more details, see the following overview:
+
 <details>
-<summary markdown="span">Übersicht über die Systemkonfigurationen</summary>
+<summary markdown="span">Overview of system configurations</summary>
 
-| Browser/OS    |   Windows (10)  |   Linux (Ubuntu 18.04)    |       MacOS (Catalina)     |
-| :------------ | --------------- | ------------------------- | --------------- |
-| Chrome/Chromium   | Maus: **funktioniert**<br>Xbox One: **funktioniert**<br>DS4: **funktioniert** | Maus: **funktioniert**<br>Xbox One: **funktioniert**<br>DS4: eingeschränkt | Maus: **funktioniert**<br>Xbox One: funktioniert nicht<br>DS4: **funktioniert** |
-| Firefox           | Maus: **funktioniert**<br>Xbox One: **funktioniert**<br>DS4: **funktioniert** | Maus: **funktioniert**<br>Xbox One: eingeschränkt[3]<br>DS4: eingeschränkt[2] | Maus: **funktioniert**<br>Xbox One: funktioniert nicht<br>DS4: **funktioniert** |
-| Opera             | Maus: **funktioniert**[1]<br>Xbox One: **funktioniert**<br>DS4: **funktioniert** | Maus: ---<br>Xbox One: ---<br>DS4: --- | Maus: **funktioniert**[1]<br>Xbox One: **funktioniert**<br>DS4: **funktioniert** |
-| Edge (Chrome)     | Maus: **funktioniert**<br>Xbox One: **funktioniert**<br>DS4: **funktioniert** | Maus: ---<br>Xbox One: ---<br>DS4: --- | Maus: **funktioniert**<br>Xbox One: funktioniert nicht<br>DS4: **funktioniert** |
-| Safari            | Maus: ---<br>Xbox One: ---<br>DS4: --- | Maus: ---<br>Xbox One: ---<br>DS4: --- | Maus: eingeschränkt[4]<br>Xbox One: ---<br>DS4: --- |
+| Browser/OS          | Windows (10)                                                  | Linux (Ubuntu 18.04)                                        | MacOS (Catalina)                                           |
+| :------------------ | :------------------------------------------------------------ | :---------------------------------------------------------- | :--------------------------------------------------------- |
+| Chrome/Chromium     | Mouse: **works**<br>Xbox One: **works**<br>DS4: **works**     | Mouse: **works**<br>Xbox One: **works**<br>DS4: limited     | Mouse: **works**<br>Xbox One: does not work<br>DS4: **works** |
+| Firefox             | Mouse: **works**<br>Xbox One: **works**<br>DS4: **works**     | Mouse: **works**<br>Xbox One: limited[3]<br>DS4: limited[2] | Mouse: **works**<br>Xbox One: does not work<br>DS4: **works** |
+| Opera               | Mouse: **works**[1]<br>Xbox One: **works**<br>DS4: **works**  | Mouse: ---<br>Xbox One: ---<br>DS4: ---                     | Mouse: **works**[1]<br>Xbox One: **works**<br>DS4: **works**  |
+| Edge (Chrome)       | Mouse: **works**<br>Xbox One: **works**<br>DS4: **works**     | Mouse: ---<br>Xbox One: ---<br>DS4: ---                     | Mouse: **works**<br>Xbox One: does not work<br>DS4: **works** |
+| Safari              | Mouse: ---<br>Xbox One: ---<br>DS4: ---                       | Mouse: ---<br>Xbox One: ---<br>DS4: ---                     | Mouse: limited[4]<br>Xbox One: ---<br>DS4: ---             |
 
-Testdatum: 2020-08-07 - Es wurden jeweils die aktuellen Browserversionen verwendet.
+Date tested: 2020-08-07 – Current browser versions at that time were used.
 
-**`funktioniert`**: Es wurden keine Probleme festgestellt.<br>
-`eingeschränkt`: Es wurden Probleme festgestellt, die die Bedienung einschränken.<br>
-`funktioniert nicht`: Steuerung nicht möglich.<br>
-`---`: Nicht getestet.<br>
-[1]: Mausgesten sollten deaktiviert werden.<br>
-[2]: Tasten anders belegt, Menü-Auswahl dauernd nach links.<br>
-[3]: Untere Schultertasten funktionieren nicht, Regeln durchwechseln nicht möglich.<br>
-[4]: Mausempfindlichkeit sehr gering.
+**`works`**: No problems discovered.  
+`limited`: We encountered problems that restrict usage.  
+`does not work`: Control not possible.  
+`---`: Not tested.  
+[1]: Mouse gestures should be disabled.  
+[2]: Buttons are mapped differently; menu selection constantly moves left.  
+[3]: Lower shoulder buttons do not work; cannot cycle through rules.  
+[4]: Very low mouse sensitivity.
+
 </details>
 
 ## Installation
-Das Spiel wurde in der **Unity-Version 2019.4.5** entwickelt und kann mit dieser Version direkt geladen werden.
-Zur Nutzung der **Highscore-Funktionalität** wird zusätzlich ein Webserver benötigt, siehe [PhishingMasterServer](PhishingMasterServer/).
-## Konfiguration des Spiels
-Die meisten Konfigurationsparameter sind im [DataManager](Assets/PhishingMaster/scripts/DataManager.cs) zu finden.
-Im Folgenden wird auf die Parameter eingegangen, die beachtet werden sollten.
+The game was developed using **Unity version 2019.4.5** and can be loaded directly with this version.  
+To use the **Highscore functionality**, an additional web server is required. See [PhishingMasterServer](PhishingMasterServer/) for details.
+
+## Game Configuration
+Most configuration parameters can be found in the [DataManager](Assets/PhishingMaster/scripts/DataManager.cs).  
+Below are the parameters that should be noted.
+
 #### Level
-Es gibt zwei verschiedene Sets mit Nachrichten, eines mit echten Markennamen und eines mit Erfundenen.
-Zusätzlich gibt es auch noch ein Trainings-Level.
-Für jedes Level gibt es sowohl **Bilddateien**, die die Nachricht darstellen, als auch **XML Dateien** für die Phishing Nachrichten, in denen verschiedene Eigenschaften beschrieben werden.
-Die Level sind unter [Assets/Resources/Images](Assets/Resources/Images) und [Assets/Resources/XML](Assets/Resources/XML) zu finden.
-Sowohl im Web- als auch im Standalone-Build sind beide Datensätze enthalten.
-Die Auswahl des zu verwendenden Datensatzes erfolgt im [DataManager](Assets/PhishingMaster/scripts/DataManager.cs).
-Dabei wird im Web-Build standardmäßig das Level mit den erfundenen Firmennamen und im Standalone-Build mit den echten Firmennamen gewählt.
-###### Konfiguration in Unity
-Wo die Level zu finden sind, wird im Spiel im [DataManager](Assets/PhishingMaster/scripts/DataManager.cs) durch die Variable `availableLevels` festgelegt.
+There are two different sets of messages: one set with real brand names and one set with fictional ones. Additionally, there is a training level.  
+For each level, there are **image files** that depict the message, as well as **XML files** (for phishing messages) in which various properties are described.  
+These levels can be found under [Assets/Resources/Images](Assets/Resources/Images) and [Assets/Resources/XML](Assets/Resources/XML).  
+Both data sets are included in both the web and standalone builds.  
+The selection of the data set to use is made in the [DataManager](Assets/PhishingMaster/scripts/DataManager.cs). By default, the web build uses the set with fictional company names, and the standalone build uses the set with real brand names.
+
+##### Configuration in Unity
+The [DataManager](Assets/PhishingMaster/scripts/DataManager.cs) uses the `availableLevels` variable to specify where the levels can be found:
+
 ```csharp
 private static Level[] availableLevels = {
-        new Level("training_level", "Training", "Training/", 10, false),
-        new Level("real_company_level_1", "Punktemodus", "Level 1/", 10, true), //Level with real company names
-        new Level("fake_company_level_1", "Punktemodus", "Level 2/", 10, true)}; //Level with fake company names used for web_version
+    new Level("training_level", "Training", "Training/", 10, false),
+    new Level("real_company_level_1", "Score Mode", "Level 1/", 10, true), // Level with real company names
+    new Level("fake_company_level_1", "Score Mode", "Level 2/", 10, true)}; // Level with fake company names used for web_version
 ```
-Wie die einzelnen Parameter gewählt werden können und **welche Namen zulässig** sind ist im Code dokumentiert.
-###### Hinzufügen neuer Nachrichten
-Um eine neue Nachricht hinzuzufügen muss die **Bilddatei** im entsprechenden Ordner unter [Assets/Resources/Images](Assets/Resources/Images) plaziert werden.
-Zusätzlich muss nun in Unity bei den **Import-Einstellungen** für das Bild das **Aniso Level auf 3** gesetzt und der Parameter **Non-Power of 2** auf **'None'** gestellt werden, damit die Bilder im richtigen Seitenverhältnis und auch bei höherer Entfernung scharf dargestellt werden.
 
-Handelt es sich um eine Phishing-Nachricht muss zusätzlich eine **XML Datei** mit dem gleichen Namen wie die Bilddatei im entsprechenden Ordner unter [Assets/Resources/XML](Assets/Resources/XML) platziert werden.
-Das Format sollte entsprechend den bereits vorhandenen Dateien sein.
-Dabei geben die Werte `x1,y1,x2,y2` den Bereich an, indem sich das Erkennungsmerkmal der Phishing-Nachricht befindet.
-Unter `description` wird der Text eingefügt, der dem Spieler am Ende als Erklärung angezeigt werden soll.
-#### Highscore-Server
-###### Server-Adresse
-Die Adresse des Highscore Servers kann im [DataManager](Assets/PhishingMaster/scripts/DataManager.cs) angepasst werden.
-Standardmäßig sind hier folgende Werte eingetragen:
+The code contains documentation on how the individual parameters can be chosen and **which names are allowed**.
+
+##### Adding New Messages
+To add a new message, place the **image file** in the corresponding folder under [Assets/Resources/Images](Assets/Resources/Images).  
+Next, in Unity, open the **Import Settings** for that image and set **Aniso Level** to **3** and **Non-Power of 2** to **‘None’**, so that the images are displayed with the correct aspect ratio and remain sharp at greater distances.
+
+If it is a phishing message, an additional **XML file** with the same name as the image file must be placed in the corresponding folder under [Assets/Resources/XML](Assets/Resources/XML).  
+Its format should match the already existing files.  
+The values `x1, y1, x2, y2` define the area where the phishing message’s identifying feature is located. Under `description`, enter the text that will be shown to the player at the end as an explanation.
+
+#### Highscore Server
+##### Server Address
+The address of the highscore server can be adjusted in [DataManager](Assets/PhishingMaster/scripts/DataManager.cs).  
+By default, the following values are set:
+
 ```csharp
-public static readonly string[] HIGHSCORE_SERVER_ADDRESSES = 
-    { "", 
-    "http://phishing-master-highscore-server.local", 
+public static readonly string[] HIGHSCORE_SERVER_ADDRESSES =
+    { "",
+    "http://phishing-master-highscore-server.local",
     "http://localhost" };
 ```
-Die Adressen werden in der angegebenen Reihenfolge probiert.
-Die erste, leere Adresse sorgt dafür, dass die Highscore-Schnittstelle unter der gleichen URL gesucht wird, wie das Spiel.
-Somit können das Spiel (in der WebGL-Version) und die Highscore-Schnittstelle auf dem **gleichen Webserver** betrieben werden ohne die Adresse explizit angeben zu müssen.
-Die zweite Adresse ist für die **Entwicklung** da und sollte vor einem Production-Build entfernt werden.
-Die dritte Adresse versucht eine Verbindung zu einem **lokalen Highscore-Server** (z.B. für die Standalone-Version).
-###### Authentifizierung
-Zur Authentisierung gegenüber dem Highscore-Server wird beim Eintragen einer neuen Punktzahl ein Hashwert mitgesedet.
-Dieser basiert auf den übersendeten Informationen und einem Geheimnis (`secretKey`).
-Dieses Geheimnis muss sowohl im Highscore-Server, wie in der [README](PhishingMasterServer/README.md) beschrieben, als auch im Spiel hinterlegt werden.
-Im Spiel wird dieser Wert im [DataManager](Assets/PhishingMaster/scripts/DataManager.cs) durch die Variable `HIGHSCORE_SECRET_KEY` festgelegt.
+
+These addresses are tried in the specified order.  
+The first empty address ensures that the highscore interface is searched for under the same URL as the game. Therefore, if the WebGL version of the game and the highscore interface run on the **same web server**, you do not need to explicitly specify the address.  
+The second address is used for **development** and should be removed before creating a production build.  
+The third address attempts to connect to a **local highscore server** (e.g., for the standalone version).
+
+##### Authentication
+When entering a new score, a hash value is sent for authentication to the highscore server. This hash is based on the information submitted and a secret (`secretKey`).  
+This secret must be stored both on the highscore server, as described in the [README](PhishingMasterServer/README.md), and in the game.  
+In the game, this value is set via the `HIGHSCORE_SECRET_KEY` variable in [DataManager](Assets/PhishingMaster/scripts/DataManager.cs).
+
 #### Optional
-###### PlayerPrefs
-In den PlayerPrefs können lokal Einstellungen gespreichert werden.
-Diese werden bei der Standalone-Version in der Windows-Registry gespeichert und bei der Web-Version als Cookie (IndexedDB).
-Folgende Variablen werden vom Spiel gesetzt:
-- `Score` (Score der aktuellen Spielrunde)
-- `Tutorial_Complete` : Gibt an, ob das Tutorial bereits einmal abgeschlossen wurde
-- `HighScore` : Gibt den bisherigen Highscore auf dem Gerät an
-- `resultsWindowInfo` : Gibt an, ob der Hinweis zum Results-Bildschirm bereits gelesen wurde
-- `Player_Name` : Gibt den zuletzt vom Spieler eingegebenen Namen an
-###### (Development) Tutorial überspringen
-Standardmäßig kann man das Tutorial erst überspringen, wenn man es bereits einmal abgeschlossen hat.
-Um dies während der Entwicklung zu deaktivieren, kann die Variable `disableTutorialCompleteCheck` im [DataManager](Assets/PhishingMaster/scripts/DataManager.cs) auf `true` gesetzt werden.
-So wird einem jedes mal die Auswahl angezeigt.
-## Build des Spiels erstellen
-Bevor ein Build des Spiels erstellt wird, sollten die Schritte im Abschhnitt **Konfiguration** beachtet werden.
-Vor der Erstellung eines neuen Builds müssen eventuell nachdem das Build-Target (PC oder WebGL) in Unity ausgewählt wurde die Addressables neu erstellt werden. Dazu Window -> Asset-Management -> Addressables -> Groups auswählen und dann Build -> Clear Build Cache -> All anklicken. Dannach über Build -> New Build -> Default Build Script die Addressables neu erstellen.
-#### Standalone-Version
-Zum Erstellen eines Builds der Standalone-Version muss nichts zusätzlich beachtet werden.
-Einfach in Unity auf File -> Build Settings -> PC Standalone -> Build.
-#### Web
-In dieser Dokumentation wird davon ausgegangen, dass das Build in einem Ordner mit der Bezeichnung `htdocs` erstellt wird.
-Dazu in Unity auf File -> Build Settings -> WebGL -> Build und dann einen Ordner mit dem Namen `htdocs` erstellen/auswählen.
-###### Probleme mit Maus-Input im Browser
-Damit es nicht zu Problemen mit der Mausposition in der Web-Version kommt, wenn der Zoom nicht auf 100% gestellt ist oder eine Skalierung duch das Betriebssystem aktiviert wurde, muss Folgendes beachtet werden.
-In den **Player Settings** in Unity unter dem Punkt **Publishing Setting** muss der **Compression Format** auf **Disabled** gesetzt werden.
-Dadurch kann nach erfolgreichem Erstellen des Builds die Datei `Build/htdocs.wasm.framework.unityweb` bearbeitet werden.
-In dieser Datei sollten Zwei Einträge für den Suchbegriff `devicePixelRatio=window.devicePixelRatio` vorhanden sein.
-An beiden Stelle muss der Wert durch 1 ersetzt werden, wie hier beispielhaft dargestellt:
+##### PlayerPrefs
+Settings can be stored locally via PlayerPrefs.  
+For the standalone version, these are saved in the Windows registry; for the web version, they are saved as a cookie (IndexedDB).  
+The following variables are set by the game:
+
+- `Score` (the score of the current game round)
+- `Tutorial_Complete`: indicates whether the tutorial was completed at least once
+- `HighScore`: shows the previous high score on the device
+- `resultsWindowInfo`: indicates whether the hint about the Results screen has already been displayed
+- `Player_Name`: stores the player’s last entered name
+
+##### (Development) Skip Tutorial
+By default, the tutorial can only be skipped if it has been completed at least once.  
+To disable this during development, set the variable `disableTutorialCompleteCheck` to `true` in [DataManager](Assets/PhishingMaster/scripts/DataManager.cs).  
+This will always display the option to skip the tutorial.
+
+## Creating a Build of the Game
+Before creating a new build of the game, make sure to follow the steps in the **Configuration** section.  
+After switching to the desired build target (PC or WebGL) in Unity, you may need to rebuild the Addressables. To do this, go to **Window -> Asset Management -> Addressables -> Groups**, then select **Build -> Clear Build Cache -> All**, and finally **Build -> New Build -> Default Build Script**.
+
+### Standalone Version
+Nothing special is required to create a standalone build.  
+Simply go to **File -> Build Settings -> PC Standalone -> Build** in Unity.
+
+### Web
+For this documentation, we assume the build is placed in a folder named `htdocs`.  
+In Unity, go to **File -> Build Settings -> WebGL -> Build**, then create/select a folder named `htdocs`.
+
+#### Problems with Mouse Input in the Browser
+To avoid problems with mouse position in the web version when the zoom is not at 100% or when the operating system is scaling, the following must be observed:  
+In Unity’s **Player Settings** under **Publishing Settings**, set **Compression Format** to **Disabled**.  
+After successfully creating the build, edit the file `Build/htdocs.wasm.framework.unityweb`.  
+There should be two entries for the search term `devicePixelRatio=window.devicePixelRatio;`.  
+At both locations, replace the value with `1`, as shown below:
+
 ```javascript
 ...var devicePixelRatio=window.devicePixelRatio;...
-ersetzen durch:
+replace with:
 ...var devicePixelRatio=1;...
 ```
 
 ## Deployment
-Für Informationen, wie man das Spiel anderen zur Verfügung stellen kann und es bedient wird, die [Deployment Dokumentation](Docs/Deployment/) beachten
+For information on how to provide the game to others and how to operate it, please refer to the [Deployment Documentation](Docs/Deployment/).
 
-## Quellen und Lizens
-###### Verwendete Unity Assests aus dem Asset Store
-Das Spiel basiert auf der offiziellen FPS Microgame Vorlage. Außerdem wurden folgende kostenlose Assets verwendet:
-- https://assetstore.unity.com/packages/2d/textures-materials/sky/skybox-series-free-103633
-- https://assetstore.unity.com/packages/essentials/asset-packs/unity-particle-pack-5-x-73777
-- https://assetstore.unity.com/packages/3d/environments/snaps-prototype-office-137490
-- https://assetstore.unity.com/packages/2d/textures-materials/milky-way-skybox-94001 (entfernt)
-###### Lizenz
-Dieses Projekt enthält Dateien von verschiedenen Quellen, wie beispielsweise die Unity Assets oder Bilddateien.
-Die entsprechenden Lizenzen für die einzelnen Dateien sind in der jeweiligen `LICENSE.md` Datei in den entsprechenden Ordnern angegeben.
+## Sources and License
+##### Unity Assets Used from the Asset Store
+The game is based on the official FPS Microgame template. The following free assets were also used:
 
-Alle von uns erstellten Dateien und Veränderungen steht unter der MIT Lizenz.
+- https://assetstore.unity.com/packages/2d/textures-materials/sky/skybox-series-free-103633  
+- https://assetstore.unity.com/packages/essentials/asset-packs/unity-particle-pack-5-x-73777  
+- https://assetstore.unity.com/packages/3d/environments/snaps-prototype-office-137490  
+- https://assetstore.unity.com/packages/2d/textures-materials/milky-way-skybox-94001 (removed)
 
-MIT License
+##### License
+This project contains files from various sources, such as Unity assets or image files. The respective licenses for the individual files are listed in the corresponding `LICENSE.md` files in the relevant folders.
 
+All files and modifications created by us are licensed under the MIT License.
+
+```
 Copyright (c) 2020 Tobias Länge and Philipp Matheis
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
 in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell 
+copies of the Software, and to permit persons to whom the Software is 
 furnished to do so, subject to the following conditions:
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+The above copyright notice and this permission notice shall be included in 
+all copies or substantial portions of the Software.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, 
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE 
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER 
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, 
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN 
+THE SOFTWARE.
+``` 
