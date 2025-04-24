@@ -19,15 +19,15 @@ MonoBehaviour:
     m_Items: []
   m_TableData:
   - m_Id: 2849984688128
-    m_Localized: 62b03e0696d9e5546abe8d286c67725c[placeholder]
+    m_Localized: 454306c5ed5bf1a4e82860e36c32da41[Rules3_eng]
     m_Metadata:
       m_Items: []
   - m_Id: 19525742592
-    m_Localized: 62b03e0696d9e5546abe8d286c67725c[placeholder]
+    m_Localized: a115703205e50b04db368dbabceef6ab[Rules1_eng]
     m_Metadata:
       m_Items: []
   - m_Id: 2578248314880
-    m_Localized: 62b03e0696d9e5546abe8d286c67725c[placeholder]
+    m_Localized: ca1728a5db2d5a54cb2ef54b55a61baf[Rules2_eng]
     m_Metadata:
       m_Items: []
   references:
